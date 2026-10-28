@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>String and Math Methods</title>
+
+    <style>
+        body {
+            text-align: center;
+            font-family: Manjari, sans-serif;
+            background-color: black;
+            color: #E5A93C;
+            margin: 35px;
+        }
+
+        h1 {
+            font-weight: 1000;
+            background-color: dodgerblue;
+            padding: 5px;
+            padding-top: 8px;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+<script>
+let str = "we are manjari and adnan";
+
+document.write(str + "<br>");
+document.write("<h1>STRING METHOD</h1>");
+document.write("<h2>JavaScript String Method</h2>");
+
+document.write("Length of string is: " + str.length + "<br>");
+
+document.write("Index of first occurrence of 'S': " + str.indexOf('S') + "<br>");
+
+document.write("Index of last occurrence of 'a': " + str.lastIndexOf("a") + "<br>");
+
+document.write("Index of 'are' in a string: " + str.indexOf("are") + "<br>");
+
+document.write("Print characters from index 0 to 3 using slice: " + str.slice(0, 3) + "<br>");
+
+document.write("Substring using substring: " + str.substring(2, 7) + "<br>");
+
+document.write("String in uppercase: " + str.toUpperCase() + "<br>");
+
+document.write("Replace manjari with adnan: " + str.replace("manjari", "adnan") + "<br>");
+
+document.write("Use trim: " + str.trim() + "<br>");
+
+document.write("Character at index 5: " + str.charAt(5) + "<br>");
+
+document.write("Character code at index 5: " + str.charCodeAt(5) + "<br>");
+
+document.write("<h1>MATH OBJECT</h1>");
+
+document.write("Math object is a built-in object that contains basic mathematical functions and constants.<br>");
+
+document.write("Value of PI: " + Math.PI + "<br>");
+
+document.write("PI in degrees: " + (Math.PI * 180 / Math.PI) + " degrees<br>");
+
+document.write("Value of E: " + Math.E + "<br>");
+
+document.write("Sign of -3: " + Math.sign(-3) + "<br>");
+
+document.write("Square root of 8: " + Math.sqrt(8) + "<br>");
+
+document.write("The 2nd power of 8: " + Math.pow(8, 2) + "<br>");
+
+document.write("Round the value 6.7: " + Math.round(6.7) + "<br>");
+
+document.write("Round the value 4.6: " + Math.round(4.6) + "<br>");
+
+document.write("Ceil the value 4.4: " + Math.ceil(4.4) + "<br>");
+
+document.write("Ceil the value 4.6: " + Math.ceil(4.6) + "<br>");
+
+document.write("Floor value of 4.4: " + Math.floor(4.4) + "<br>");
+
+</script>
+
+</body>
+</html>
+
