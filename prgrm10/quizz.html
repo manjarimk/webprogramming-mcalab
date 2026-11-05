@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>Quiz</title>
+</head>
+<body>
+<h2 style="text-align:center;">Online Quiz</h2>
+<div>
+<h3>1 who is the ceo of google </h3>
+<input type="radio"name="q1"id="a">
+Sunderpichai<br>
+<input type="radio"name="q1">
+elon musk<br>
+<input type="radio"name="q1">
+bill gates
+<br>
+ <input type="radio"name="q1">
+zucken burge<br>
+<input type="radio"name="q1"id="a">
+Sunderpichai<br>
+<h3>2 what is the full form of HTML</h3>
+<input type="radio"name="q2">
+Hyper text markup leraner<br>
+<input type="radio"name="q2"id="b">
+Hyper Text Markup Language<br>
+<input type="radio"name="q2">
+Hper Text Lnaguage
+<br>
+ <input type="radio"name="q2">
+Text Markup<br>
+<input type="radio"name="q2">
+Hyper<br>
+<h3>3 What is the full form of CSS</h3><br>
+<input type="radio"name="q3">
+Style<br>
+<input type="radio"name="q3">
+Cstd
+<br>
+<input type="radio"name="q3">
+Castcading
+<br>
+ <input type="radio"name="q3">
+stylesheet<br>
+<input type="radio"name="q4"id="c">
+Castcading Style Sheet
+<br>
+<input type="submit"value="submit"onclick="result()">
+<br>
+<p id="res"syle="font-weight:600; font-size:19px;">Score:0</p>
+</div>
+<script> 
+function result(){
+let score=0;
+if(document.getElementById("a").checked)
+{
+score++;
+}
+if(document.getElementById("b").checked)
+{
+score++;
+}
+if(document.getElementById("c").checked)
+{
+score++;
+}
+document.getElementById("res").innerHTML="Score:"+score;
+}
+</script>
+</body>
+</html>
+
+
